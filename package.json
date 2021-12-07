@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "express": "^4.17.1",
-    "gab-api": "^0.4.3"
+    "gab-api": "^0.4.3",
+    "mongoose": "^6.0.15"
   }
 }
