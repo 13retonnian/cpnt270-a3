@@ -2,7 +2,7 @@
 # Christopher Barber
 
 ### !!THIS ASSIGNMENT DOES NOT WORK!!
-This assignment doesn't work because I couldn't get an API key because I need Gab pro (couldn't pay for it(country restrictions)) but I built it as if I had the key.
+This assignment doesn't work because I couldn't get an API key because I need Gab pro (couldn't pay for it(country restrictions)) but I built it as if I had the key. Was too late to switch APIs.
 
 ## User Story
 
@@ -40,11 +40,13 @@ https://gab.com/13retonnianGab - 3 Trump posts are here
 
 ### Problems encountered
 - can't use API because I need a Gab pro account. Can only pay for Gab pro if inside USA.
+- was getting require is not defined error and Icah told me to fix it by doing npm init
 
 #### Attributions:
-(Gab developers Gab)[https://gab.com/developers]
-Attributions to Tony Grimes and Ashlyn Knox's classes and code from SAIT. (They have no part in the idea to use Trump's Gab for this assignment.)
-MIT License
+- Icah helped me solve require is not defined problem
+- (Gab developers Gab)[https://gab.com/developers]
+- Attributions to Tony Grimes and Ashlyn Knox's classes and code from SAIT. (They have no part in the idea to use Trump's Gab for this assignment.)
+- MIT License
 
 ### API Documentation
 #### General Usage:

@@ -5,5 +5,22 @@
     "gab.com": "^1.0.1",
     "mongodb": "^4.2.1",
     "mongoose": "^6.0.15"
-  }
+  },
+  "name": "cpnt270-a3",
+  "description": "This assignment doesn't work because I couldn't get an API key because I need Gab pro (couldn't pay for it(country restrictions)) but I built it as if I had the key.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/13retonnian/cpnt270-a3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/13retonnian/cpnt270-a3/issues"
+  },
+  "homepage": "https://github.com/13retonnian/cpnt270-a3#readme"
 }
