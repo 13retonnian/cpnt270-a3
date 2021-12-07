@@ -4,6 +4,13 @@
 ### !!THIS ASSIGNMENT DOES NOT WORK!!
 This assignment doesn't work because I couldn't get an API key because I need Gab pro (couldn't pay for it(country restrictions)) but I built it as if I had the key. Was too late to switch APIs.
 
+## Github
+https://github.com/13retonnian/cpnt270-a3
+
+## Instructions
+- First start the server using the command 'node server.js'.
+- You should see the response of 'Listening on port 3001' and 'Connected to DB'
+
 ## User Story
 
 **As a**

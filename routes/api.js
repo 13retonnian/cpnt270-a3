@@ -1,11 +1,8 @@
 const express = require('express')
-const app = express()
 const router = express.Router();
 //connect to Gab
 const gabDB = require('../model/db')
 const mongoose = require('mongoose');
-const { response } = require('express');
-const dotenv = require('dotenv').config()
 /*
  * Initialize the Gab API module
  */
