@@ -1,6 +1,9 @@
 # DSGN 270 Assignment 3
 # Christopher Barber
 
+### !!THIS ASSIGNMENT DOES NOT WORK!!
+This assignment doesn't work because I couldn't get an API key because I need Gab pro (couldn't pay for it(country restrictions)) but I built it as if I had the key.
+
 ## User Story
 
 **As a**
@@ -35,8 +38,42 @@ https://gab.com/13retonnianGab - 3 Trump posts are here
 3. User types in what they would like to post in the text box.
 4. User clicks submit.
 
+### Problems encountered
+- can't use API because I need a Gab pro account. Can only pay for Gab pro if inside USA.
+
+#### Attributions:
+(Gab developers Gab)[https://gab.com/developers]
+Attributions to Tony Grimes and Ashlyn Knox's classes and code from SAIT. (They have no part in the idea to use Trump's Gab for this assignment.)
+MIT License
+
+### API Documentation
+#### General Usage:
+https://code.gab.com/gab/hydra/hydra-modules/gab-api
+
+#### Rate limits
+#### Authentication methods
+router.get('/connect-gab', gabapi.authorize);
+#### Creating a token
+#### Endpoint Reference
+Retrieves a list of posts from Donald Trump's feed:
+gabapi
+.getUserFeed(req, 'realdonaldtrump', 0)
+.then((feed) => {
+  console.log('user feed', feed);
+})
+.catch((error) => {
+  console.log('Gab.com API error', error);
+});
 
 
+<!-- 5 points: In the project README, include relevant links from the Developer API Documentation:
+General Usage
+Rate limits
+Authentication methods
+Creating a token
+Endpoint Reference -->
+
+<!-- 
 Create a public web page that displays social content in a way that supports your User Story.
 
 To be included in the project README. Define instructions as a Task Flow for the potential client to test the integration. For example:
@@ -56,4 +93,4 @@ Displaying a list with pagination.
 Task can be to create a new post (i.e. new "daily special" OR edit the existing content in some significant way that supports the User Story (i.e. label an existing post as "featured" to change the output of the integration).
 One of the three non-lorem posts may be used as sample content for the client to use to create a new post.
 Include relevant supporting links from the user documentation of the social tool you've chosen (i.e. "How to create an Instagram Post" from the IG website).
-Your instructor will follow these instructions to mark this assignment so be clear and concise.
+Your instructor will follow these instructions to mark this assignment so be clear and concise. -->

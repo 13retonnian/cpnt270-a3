@@ -2,6 +2,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "gab-api": "^0.4.3",
+    "gab.com": "^1.0.1",
+    "mongodb": "^4.2.1",
     "mongoose": "^6.0.15"
   }
 }
